@@ -1,0 +1,29 @@
+.transactionHistory {
+    border-collapse: collapse;
+}
+
+.title{
+    padding: 10px;
+    width: 150px;
+    border: 1px solid #000000;
+    background-color: blue;
+    text-transform: uppercase;
+    color: white;
+}
+
+.item {
+    padding: 10px;
+    width: 150px;
+    border: 1px solid #000000;
+    text-transform: capitalize;
+    text-align: center;
+    color: gray;
+}
+
+.list {
+    background-color: lightgrey;
+}
+
+.list:nth-child(even) {
+    background-color: white;
+}
